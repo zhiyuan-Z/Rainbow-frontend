@@ -1,8 +1,22 @@
 package com.rainbow;
 
+import com.facebook.react.BuildConfig;
+import com.reactlibrary.RNOpenCvLibraryPackage;
+
+import org.opencv.android.BaseLoaderCallback;
+import org.opencv.android.LoaderCallbackInterface;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.opencv.android.OpenCVLoader;
+
+import android.util.Log;
+
 import android.app.Application;
 import android.content.Context;
-import com.facebook.react.PackageList;
+//import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -25,7 +39,9 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
-          List<ReactPackage> packages = new PackageList(this).getPackages();
+//          List<ReactPackage> packages = new PackageList(this).getPackages();
+          List<ReactPackage> packages = new ArrayList<ReactPackage>();
+          packages.add(new RNOpenCvLibraryPackage());
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
           return packages;
@@ -49,6 +65,22 @@ public class MainApplication extends Application implements ReactApplication {
     }
   }
 
+    private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
+        @Override
+        public void onManagerConnected(int status) {
+            switch (status) {
+                case LoaderCallbackInterface.SUCCESS:
+                {
+                    Log.i("OpenCV", "OpenCV loaded successfully");
+                } break;
+                default:
+                {
+                    super.onManagerConnected(status);
+                } break;
+            }
+        }
+    };
+
   @Override
   public void onCreate() {
     super.onCreate();
@@ -56,6 +88,9 @@ public class MainApplication extends Application implements ReactApplication {
     ReactFeatureFlags.useTurboModules = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+    if (!OpenCVLoader.initDebug()) { // ADD THIS
+        Log.d("OpenCv", "Error while init"); // AND THIS
+    } // DON'T FORGET THE "}"
   }
 
   /**

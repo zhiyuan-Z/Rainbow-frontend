@@ -1,0 +1,3 @@
+D:/Users/zhiyuan/Documents/JI/22SU/ECE4800J/Code/Rainbow-frontend/android/opencv/.cxx/Debug/1n4j143p/x86/CMakeFiles/opencv_jni_shared.dir
+D:/Users/zhiyuan/Documents/JI/22SU/ECE4800J/Code/Rainbow-frontend/android/opencv/.cxx/Debug/1n4j143p/x86/CMakeFiles/edit_cache.dir
+D:/Users/zhiyuan/Documents/JI/22SU/ECE4800J/Code/Rainbow-frontend/android/opencv/.cxx/Debug/1n4j143p/x86/CMakeFiles/rebuild_cache.dir
