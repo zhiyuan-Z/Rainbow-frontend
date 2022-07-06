@@ -36,23 +36,32 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:background="#ffffff"
         tools:context=".ColorDetectionActivity" >
-        <ImageView
-            android:id="@+id/sample_img_view"
-            android:layout_weight="1"
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="0dp"
-            android:layout_height="360dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginHorizontal="30dp"
-            android:adjustViewBounds="true"
-            android:focusable="true"
-            android:scaleType="fitCenter"
-            android:src="@drawable/paint" />
+            android:layout_height="match_parent"
+            tools:context=".ColorDetectionActivity"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/sample_img_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/paint" />
+        </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingHorizontal="40dp"
+            android:paddingHorizontal="20dp"
             android:orientation="vertical"
             android:gravity="center_vertical"
             android:weightSum="5"
@@ -73,7 +82,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:text="This color is: ---"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -118,6 +127,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
                 android:orientation="horizontal">
                 <Button
                     android:layout_width="wrap_content"
