@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 612860944
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\\android_gradle_build.json due to:",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1401317872
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1775251016
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1079751402
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1220976724
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\u0027",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1206573516
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\443a3d6n\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\443a3d6n\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1689763198
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\zhiyu\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\443a3d6n\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\build\\intermediates\\cxx\\RelWithDebInfo\\443a3d6n\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BD:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 921632381
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\\compile_commands.json.bin normally",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -369951710
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1533322975
+  },
+  {
+    "level_": 0,
+    "message_": "write command file D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\.cxx\\RelWithDebInfo\\443a3d6n\\x86\\metadata_generation_command.txt",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1219262276
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "D:\\Users\\zhiyuan\\Documents\\JI\\22SU\\ECE4800J\\all\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 404750109
+  }
+]

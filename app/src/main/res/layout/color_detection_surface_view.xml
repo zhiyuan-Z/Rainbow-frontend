@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ColorDetectionActivity">
+<!--测试界面。不要修改模块的id-->
+<!--顶上那个蓝色的条，写着“Rainbow”    -->
+<!--没任何互动效果，纯装饰。可以随便修改    -->
+    <!--切换检测模式的按钮-->
+    <!--显示检测图片的模块。要用户上传文件之后才有图-->
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/sample_img_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/camere_iv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        />-->
+
+<!--显示检测颜色的名字-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4e97bb"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp" />
+
+    <ToggleButton
+        android:id="@+id/mode_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:textOff="mode: pixel detection"
+        android:textOn="mode: blob detection"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/sample_img_view"
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/paint"
+        android:focusable="true"
+        android:scaleType="fitCenter" />
+
+    <!--以下三个模块分别显示颜色的RGB-->
+
+    <TextView
+        android:id="@+id/pixel_color_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="This color is: ---"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pixel_r_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="R: ---"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/pixel_g_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="G: ---"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pixel_b_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="B: ---"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+<!--跳转到detail页面（色相环页面）的按钮    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:layout_marginLeft="50dp"
+        android:onClick="startDetail"
+        android:textSize="20sp"
+        />
+<!--让用户返回至MainPage重新上传图片的按钮-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-upload"
+        android:layout_marginLeft="50dp"
+        android:onClick="startMain"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+</LinearLayout>
